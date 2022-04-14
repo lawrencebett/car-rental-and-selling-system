@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Car Bazaar</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Online<span class="logo_colour">Car_Bazaar</span></a></h1>
+          <h2>Buy, Sell your car online.</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="index.php">Home</a></li>
+          <li><a href="viewcars.php">View cars</a></li>
+          <li><a href="login.php">Buy cars</a></li>
+          <li><a href="login.php">Sell cars</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
+          <li><a href="login.php">Login</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="banner"></div>
+	  <div id="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <!-- insert your sidebar items here -->
+            <h3>Latest News</h3>
+            <h4>New Discovery 3 Arrival</h4>
+            <h5>October 20st, 2016</h5>
+            <p>Since the new Discovery range rover is out... <a href="#">Read more</a>.<br /></p>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Garages</h3>
+            <ul>
+              <li><a href="#">Limo Garage</a></li>
+              <li><a href="#">Car doctor Garage</a></li>
+            </ul>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          
+          <div class="sidebar_base"></div>
+        </div>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>Welcome to the simplestyle_horizon template</h1>
+        <p><img name="img1" src="style/showroom3.jpg" width="300" height="180" alt="Showroom1"></p>
+        <p>The classic cars, the luxurious dream cars.</p>
+        <p><img name="img1" src="style/showroom1.jpg" width="300" height="180" alt="Showroom2"></p>
+        <p>We have diifrent showrooms across the town.. <a href="buy.php">Buy</a> or <a href="sell.php">Sell</a> a car</p>
+        <h2>Car Compatibility</h2>
+        <p><img name="img1" src="style/pexels-photo-141674-medium.jpeg" width="300" height="180" alt="Car1"></p>
+        <ul>
+          <li>Spacious</li>
+          <li>Luxurious</li>
+          <li>Cost effective</li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+     <p><a href="index.html">Home</a> | <a href="viewcars.php">View cars</a> | <a href="login.php">Buy cars</a> | <a href="login.php">Sell cars</a> | <a href="contact.php">Contact Us</a></p>
+     
+    </div>
+  </div>
+</body>
+</html>
